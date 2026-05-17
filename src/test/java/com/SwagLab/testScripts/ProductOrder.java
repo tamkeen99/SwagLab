@@ -21,6 +21,7 @@ public class ProductOrder extends BaseClass{
 		
 		
 		SwagLabPage sp= new SwagLabPage(driver);
+		driver.switchTo().alert().accept();
 		sp.setAdd1();
 		Thread.sleep(4000);
 		sp.setAdd2();
