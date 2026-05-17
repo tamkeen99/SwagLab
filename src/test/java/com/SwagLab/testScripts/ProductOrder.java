@@ -22,9 +22,9 @@ public class ProductOrder extends BaseClass{
 		
 		SwagLabPage sp= new SwagLabPage(driver);
 		sp.setAdd1();
-		Thread.sleep(2000);
+		Thread.sleep(4000);
 		sp.setAdd2();
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		sp.setAdd3();
 		Thread.sleep(2000);
 		sp.setCart();
