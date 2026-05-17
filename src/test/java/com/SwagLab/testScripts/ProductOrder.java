@@ -28,7 +28,7 @@ public class ProductOrder extends BaseClass{
 		sp.setAdd3();
 		Thread.sleep(2000);
 		sp.setCart();
-		Thread.sleep(2000);
+		Thread.sleep(4000);
 		SwagLabCheckOut sc= new SwagLabCheckOut(driver);
 		sc.setCheck();
 		
@@ -39,6 +39,7 @@ public class ProductOrder extends BaseClass{
 		String postal = fb.getPropertyFile("zip");
 		
 		SwagLabInfo si= new SwagLabInfo(driver);
+		//
 		
 		si.setFistName(firstn);
 		Thread.sleep(2000);
