@@ -15,7 +15,7 @@ import com.SwagLab.pom.LoginPage;
 
 public class BaseClass {
 	static {
-		System.setProperty("webdriver.chrome.driver", "./src/main/resources/driver/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./src/main/resources/driver/chromedriver");
 		
 	}
 		
